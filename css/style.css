@@ -12,6 +12,7 @@ body {
     z-index: 20;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: rgba(45, 45, 45, 1);
 }
 
 .navbar-nav .nav-link {
@@ -32,10 +33,6 @@ body {
 
 .offcanvas-title{
     color: #ffffff;
-}
-
-.bi {
-    fill: currentColor;
 }
 
 .footer {

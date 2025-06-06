@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COPESA - Empresa de servicios</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="fonts/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 <body>
-    
     <main>
     <!-- NavBar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100 py-3">
+        <nav class="navbar navbar-expand-lg w-100 py-4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logowide.png" alt="CopesaImage" class="d-inline-block align-text-top" width="150">
@@ -26,43 +27,41 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
                     <div class="offcanvas-header">
                         <a class="navbar-brand" href="index.html">
-                        <img src="images/logomin.png" alt="CopesaLogoMin" class="navbar-logo-min">
-                            <!--<svg class="bi" width="2em" height="2em">
-                                <use xlink:href="#home" />
-                            </svg>-->
+                            <img src="images/logomin.png" alt="CopesaLogoMin" class="navbar-logo-min">
                         </a>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body justify-content-end">
                         <ul class="navbar-nav gap-3">
-                            <li class="nav-item"><a class="nav-link" href="services.html">SERVICIOS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="equipment.html">EQUIPAMIENTO</a></li>
-                            <li class="nav-item"><a class="nav-link" href="customers.html">CLIENTES</a></li>
-                            <li class="nav-item"><a class="nav-link" href="certifications.html">CERTIFICACIONES</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">CONTACTO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">SERVICIOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">EQUIPAMIENTO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">CLIENTES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">CERTIFICACIONES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
 
-        <!-- Texto fijo sobre el carrusel -->
-        <div class="carousel-text">
-            <h1>COPESA</h1>
-            <p>Servicios Integrales para la industria de Oil & Gas, Minería y Construcción.</p>
-        </div>
-
         <!-- Carrusel -->
-        <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide custom-carousel position-relative" data-bs-ride="carousel">
+            <div class="carousel-text position-absolute top-50 start-0 translate-middle-y w-75 text-start ps-4" style="z-index: 10;">
+                <div class="bg-dark bg-opacity-50 rounded-4 p-4 d-inline-block animate__animated animate__zoomIn">
+                    <h1 class="text-white fw-bold mb-2">COPESA</h1>
+                    <p class="lead text-white mb-0 mt-2">Soluciones integrales para la industria, con experiencia y compromiso.</p>
+                    <a href="services.html" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold mt-4">Ver más</a>
+                </div>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/bg.jpg" class="d-block w-100" alt="Imagen 1">
+                    <img src="images/copesa-cabin.jpg" class="d-block w-100" alt="copesa cabin cover">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/bg2.jpg" class="d-block w-100" alt="Imagen 2">
+                    <img src="images/copesa-service.jpg" class="d-block w-100" alt="copesa logo cover">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/bg.jpg" class="d-block w-100" alt="Imagen 3">
+                    <img src="images/copesa-truck.jpg" class="d-block w-100" alt="copesa truck cover">
                 </div>
             </div>
             <div class="carousel-indicators">
@@ -72,113 +71,50 @@
             </div>
         </div>
 
-
-        <div class="container my-5">
-            <div class="px-4 py-5 my-5 text-center border shadow-lg">
-                <div class="col-lg-6 mx-auto">
-                    <h3 class="display-4 fw-bold lh-1 text-body-emphasis">Copesa</h3>
-                    <p class="lead lead-text">Somos una empresa de servicios petroleros que ayuda al medio ambiente y algunas cosas mas (ver que poner)</p>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <a href="#" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Ver más</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container px-4 py-1">    
-            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-                <div class="col d-flex flex-column align-items-start gap-2">
-                    <h2 class="fw-bold text-body-emphasis">Servicios</h2>
-                    <p class="text-body-secondary">COPESA ofrece los mejores servicios de bla bla bla bla bla</p>
-                    <a href="services.html" class="btn btn-primary btn-lg">Ver más</a>
-                </div>
-        
-                <div class="col">
-                    <div class="row row-cols-1 row-cols-sm-2 g-4">
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 rounded-3">
-                                <i class="bi bi-fire"></i>
-                            </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">Planta de tratamiento de residuos peligrosos e incineración</h4>
-                            <p class="text-body-secondary">Tratamiento de residuos peligrosos mediante un horno incinerador de múltiples cámaras que utiliza tecnología de pirólisis controlada, con certificación de disposición final de cenizas.</p>
-                        </div>
-        
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 rounded-3">
-                                <i class="bi bi-truck-flatbed"></i>
-                            </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">Transporte de residuos Petroleros</h4>
-                            <p class="text-body-secondary">Recolección, transporte y disposición final de residuos sólidos de la industria petrolera, y ofrecemos alquiler de volquetes en medidas de 5 m³ y 8 m³.</p>
-                        </div>
-        
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 rounded-3">
-                                <i class="bi bi-radioactive"></i>
-                            </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">Limpieza de fondo de tanques</h4>
-                            <p class="text-body-secondary">Limpieza de tanques de almacenamiento en la industria petrolera con equipamiento nuevo, incluyendo camiones con hidrolavadoras de última generación y camiones de super vacío "Vactor".</p>
-                        </div>
-        
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 rounded-3">
-                                <i class="bi bi-truck-front-fill"></i>
-                            </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">Grúas</h4>
-                            <p class="text-body-secondary">Servicio de grúas telescópicas móviles de 16 a 70 toneladas, con brazos de 28 a 50 metros, equipadas con control por joystick, computadora a bordo, sensor de estabilidad y balanza incorporada. Contamos con bases operativas en Las Heras, Caleta Olivia y Comodoro Rivadavia para optimizar logística y tiempos de servicio.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container text-center my-5">
-            <h2 class="mb-4">Servicios</h2>
+        <div class="container text-center my-5" data-aos="fade">
+            <h2 class="fw-semibold mb-0 text-body-emphasis px-2">ALGUNOS DE NUESTROS SERVICIOS</h2>
             <div class="row justify-content-center services-row">
-                <div class="col-md-2 col-sm-4 mb-4 services-items">
+                <div class="col-md-2 col-sm-4 mb-4 services-items" data-aos="zoom-out-up">
                     <img src="images/gauge.png" alt="" class="services-items-logo">
-                    <h4 class="fw-semibold mb-0 text-body-emphasis">Grúas</h4>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis py-3">Grúas</h4>
                 </div>
-                <div class="col-md-2 col-sm-4 mb-4 services-items">
+                <div class="col-md-2 col-sm-4 mb-4 services-items" data-aos="zoom-out-up">
                     <img src="images/gauge.png" alt="" class="services-items-logo">
-                    <h4 class="fw-semibold mb-0 text-body-emphasis">Grúas</h4>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis py-3">Grúas</h4>
                 </div>
-                <div class="col-md-2 col-sm-4 mb-4 services-items">
+                <div class="col-md-2 col-sm-4 mb-4 services-items" data-aos="zoom-out-up">
                     <img src="images/gauge.png" alt="" class="services-items-logo">
-                    <h4 class="fw-semibold mb-0 text-body-emphasis">Grúas</h4>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis py-3">Grúas</h4>
                 </div>
-                <div class="col-md-2 col-sm-4 mb-4 services-items">
+                <div class="col-md-2 col-sm-4 mb-4 services-items" data-aos="zoom-out-up">
                     <img src="images/gauge.png" alt="" class="services-items-logo">
-                    <h4 class="fw-semibold mb-0 text-body-emphasis">Grúas</h4>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis py-3">Grúas</h4>
                 </div>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <a href="services.html" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Ver más</a>
+                    <a href="#" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Ver más</a>
                 </div>
             </div>
         </div>
 
-        <div class="px-4 py-5 my-5 text-center border shadow-lg main-customers">
+        <div class="px-4 py-5 my-5 text-center border shadow-lg main-customers" data-aos="fade-up">
             <h3 class="display-7 fw-bold text-body-emphasis">PRINCIPALES CLIENTES</h3>
             <div class="col-lg-5 mx-auto">
                 <div class="row justify-content-center customers-icons-column">
-                    <div class="col-6 col-md-3 mb-3">
+                    <div class="col-6 col-md-3 mb-3 customers-icon" data-aos="zoom-out-up">
                         <img src="images/logoypf.png" alt="Logo Cliente 1" class="img-fluid logo-grayscale">
                     </div>
-                    <div class="col-6 col-md-3 mb-3">
+                    <div class="col-6 col-md-3 mb-3" data-aos="zoom-out-up">
                         <img src="images/logotecpetrol.png" alt="Logo Cliente 2" class="img-fluid logo-grayscale">
                     </div>
-                    <div class="col-6 col-md-3 mb-3">
+                    <div class="col-6 col-md-3 mb-3" data-aos="zoom-out-up">
                         <img src="images/Application.ico" alt="Logo Cliente 3" class="img-fluid logo-grayscale">
                     </div>
-                    <div class="col-6 col-md-3 mb-3">
+                    <div class="col-6 col-md-3 mb-3" data-aos="zoom-out-up">
                         <img src="images/Application.ico" alt="Logo Cliente 4" class="img-fluid logo-grayscale">
                     </div>
                 </div>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <a href="clientes.html" class="btn btn-dark btn-lg px-4 gap-3">Ver más</a>
+                    <a href="#" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Ver más</a>
                 </div>
             </div>
         </div>
@@ -195,12 +131,18 @@
                     <a href="mailto:info@copesa.com">mail@copesa-ar.com</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <p>&copy; 2024 COPESA. Todos los derechos reservados.</p>
+                    <p>&copy; 2025 COPESA. Todos los derechos reservados.</p>
                 </div>
             </div>
         </div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init();
+        });
+    </script>
 </body>
 </html>
