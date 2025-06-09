@@ -27,6 +27,10 @@ body {
     height: 25%;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 .offcanvas{
     background: rgba(45, 45, 45, 1);
 }
