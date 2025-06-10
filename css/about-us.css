@@ -1,0 +1,14 @@
+.p-history{
+            font-size: .85rem;
+        }
+
+        .historia-img {
+            max-width: 100%;
+            height: auto;
+        }
+        .mision-vision {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
