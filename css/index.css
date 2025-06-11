@@ -80,7 +80,7 @@
 
 .services-items:hover img {
     transform: translateY(-8px) scale(1.04);
-    filter: brightness(1.1) drop-shadow(0 2px 8px #e9c00455);
+    filter: drop-shadow(0 2px 8px #e9bf04);
 }
 
 .services-items-logo {
