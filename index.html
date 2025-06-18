@@ -14,45 +14,47 @@
 </head>
 <body>
     <main>
-    <!-- NavBar -->
-        <nav class="navbar navbar-expand-lg w-100 py-4">
-            <div class="container-fluid">
-                <a class="navbar-brand" href=".">
-                    <img src="images/logowide.png" alt="CopesaImage" class="d-inline-block align-text-top" width="150">
-                </a>
-                <!-- Botón de menú hamburguesa con offcanvas -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Offcanvas para el menú de navegación -->
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-                    <div class="offcanvas-header">
-                        <a class="navbar-brand" href=".">
-                            <img src="images/logomin.png" alt="CopesaLogoMin" class="navbar-logo-min">
-                        </a>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body justify-content-end">
-                        <ul class="navbar-nav gap-3">
-                            <li class="nav-item"><a class="nav-link" href="es/servicios/">SERVICIOS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="es/sobre-nosotros/">SOBRE NOSOTROS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">CLIENTES</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">CERTIFICACIONES</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>
-                            <li class="nav-item dropdown" data-bs-theme="dark">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
-                                    <i class="bi bi-globe2"></i>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href=".">Español</a></li>
-                                    <li><a class="dropdown-item" href="en/">Ingles</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+        <header id="top">
+            <nav class="navbar navbar-expand-lg w-100 py-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href=".">
+                        <img src="images/logowide.png" alt="CopesaImage" class="d-inline-block align-text-top" width="150">
+                    </a>
+                    <!-- Botón de menú hamburguesa con offcanvas -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+                        aria-controls="offcanvasMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Offcanvas para el menú de navegación -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+                        <div class="offcanvas-header">
+                            <a class="navbar-brand" href=".">
+                                <img src="images/logomin.png" alt="CopesaLogoMin" class="navbar-logo-min">
+                            </a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body justify-content-end">
+                            <ul class="navbar-nav gap-3">
+                                <li class="nav-item"><a class="nav-link" href="es/servicios/">SERVICIOS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="es/sobre-nosotros/">SOBRE NOSOTROS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">CLIENTES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">CERTIFICACIONES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>
+                                <li class="nav-item dropdown" data-bs-theme="dark">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                        <i class="bi bi-globe2"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href=".">Español</a></li>
+                                        <li><a class="dropdown-item" href="en/">Ingles</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
 
         <!-- Carrusel -->
         <div id="carouselExampleIndicators" class="carousel slide custom-carousel position-relative" data-bs-ride="carousel">
@@ -139,7 +141,9 @@
     </main>
     <footer class="footer mt-auto py-4 bg-dark text-white">
         <div class="container text-center text-md-left">
-            <img src="images/logowide.png" alt="Logo de COPESA" class="footer-logo mb-3">
+            <a href="#top">
+                <img src="images/logowide.png" alt="Logo de COPESA" class="footer-logo mb-3">
+            </a>
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <p>Av. Bartolomé Mitre Nº 3047,<br>Barrio Industrial, Caleta Olivia - Santa Cruz</p>
