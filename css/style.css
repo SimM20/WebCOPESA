@@ -29,7 +29,8 @@ body {
     height: 40vh;
 }
 .section-container{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(0, 0, 0, 1)), url("../images/banner.jpg");
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(0, 0, 0, 1)), url("../images/banner.jpg");*/
+    background-image: url("../images/banner.jpg");
     background-position: 50%;
     height: 100%;
     background-size: cover;
@@ -81,56 +82,71 @@ body {
     min-height: 25vh;
 }
 
+/* linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), */
+
 .servicio1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");*/
+    background-image: url("../images/tratamientoResiduos.jpg");
 }
 
 .servicio2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/transporteResiduos.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/transporteResiduos.jpg");*/
+    background-image: url("../images/transporteResiduos.jpg");
 }
 
 .servicio3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/limpiezaTanque.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/limpiezaTanque.jpg");*/
+    background-image: url("../images/limpiezaTanque.jpg");
 }
 
 .servicio4{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/grua.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/grua.jpg");*/
+    background-image: url("../images/grua.jpg");
 }
 
 .servicio5{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/hidroGruas.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/hidroGruas.jpg");*/
+    background-image: url("../images/hidroGruas.jpg");
 }
 
 .servicio6{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/aibs.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/aibs.jpg");*/
+    background-image: url("../images/aibs.jpg");
 }
 
 .servicio7{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/alquilerGruas.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/alquilerGruas.jpg");*/
+    background-image: url("../images/alquilerGruas.jpg");
 }
 
 .servicio8{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");*/
+    background-image: url("../images/tratamientoResiduos.jpg");
 }
 
 .servicio9{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");*/
+    background-image: url("../images/tratamientoResiduos.jpg");
 }
 
 .servicio10{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");*/
+    background-image: url("../images/tratamientoResiduos.jpg");
 }
 
 .servicio11{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");*/
+    background-image: url("../images/tratamientoResiduos.jpg");
 }
 
 .servicio12{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");*/
+    background-image: url("../images/tratamientoResiduos.jpg");
 }
 
 .servicio13{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/tratamientoResiduos.jpg");*/
+    background-image: url("../images/tratamientoResiduos.jpg");
 }
 
 .card:hover .card-title {
