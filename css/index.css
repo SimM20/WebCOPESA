@@ -48,6 +48,7 @@
 }
 
 .customers-icons-column{
+    align-items: center;
     margin: 10%;
 }
 

@@ -1,0 +1,5 @@
+.card:hover {
+    transform: translateY(0px);
+    box-shadow: none;
+    cursor: default;
+}

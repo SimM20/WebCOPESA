@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPESA - Clientes</title>
+    <link rel="shortcut icon" type="image/png" href="../../images/logomin.png"/>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/contact.css">
+    <link rel="stylesheet" href="../../fonts/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg w-100 py-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../..">
+                    <img src="../../images/logowide.png" alt="CopesaImage" class="d-inline-block align-text-top" width="150">
+                </a>
+                <!-- Botón de menú hamburguesa con offcanvas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Offcanvas para el menú de navegación -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+                    <div class="offcanvas-header">
+                        <a class="navbar-brand" href="../..">
+                            <img src="../../images/logomin.png" alt="CopesaLogoMin" class="navbar-logo-min">
+                        </a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body justify-content-end">
+                        <ul class="navbar-nav gap-3">
+                            <li class="nav-item"><a class="nav-link" href="../servicios/">SERVICIOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../sobre-nosotros/">SOBRE NOSOTROS</a></li>
+                            <li class="nav-item"><a class="nav-link" href=".">CLIENTES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../certificaciones/">CERTIFICACIONES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../contacto/">CONTACTO</a></li>
+                            <li class="nav-item dropdown" data-bs-theme="dark">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                    <i class="bi bi-globe2"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href=".">Español</a></li>
+                                    <li><a class="dropdown-item" href="../../en/services/">Ingles</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="section-big-container">
+            <div class="section-container">
+                <h3 class="display-3 fw-bold lh-1 text-white animate__animated animate__fadeIn">CONTACTO</h3>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="text-center mb-4">Contactanos</h2>
+                            <div class="separator mx-auto mb-4 w-50"></div>
+
+                            <form id="contact-form" action="contact.php" method="POST">
+                                <input type="text" name="name" required placeholder="Tu nombre"
+                                    style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;">
+                            
+                                <input type="email" name="email" required placeholder="Tu correo"
+                                    style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;">
+                            
+                                <textarea name="message" required placeholder="Tu mensaje" rows="5"
+                                    style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;"></textarea>
+                            
+                                <button type="submit" class="btn btn-outline-secondary py-2 mb-3 px-4">Enviar</button>
+                            </form>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="text-center mb-4">Encontranos</h2>
+                            <div class="separator mx-auto mb-4 w-50"></div>
+                            <ul class="list-unstyled py-3">
+                                <li class="mb-3">
+                                    <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                    <a class="link-to-contact" href="tel:+5492974328654"><strong>Teléfono:</strong> (+54) 9 2974-328654</a>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-envelope-fill text-danger me-2"></i>
+                                    <a class="link-to-contact" href="mailto:mail@copesa-ar.com"><strong>Email:</strong> mail@copesa-ar.com</a>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-geo-alt-fill text-success me-2"></i>
+                                    <strong>Dirección:</strong> Av. Bartolomé Mitre Nº 3047,<br>Barrio Industrial, Caleta Olivia - Santa Cruz<p>
+                                </li>
+                                <li>
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408.6450286202482!2d-67.52345006470411!3d-46.448199348988595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde5df94d21b94a7%3A0xa1b9fca239df9c7f!2sAv.%20Bartolom%C3%A9%20Mitre%203047%2C%20Z9011%20Caleta%20Olivia%2C%20Santa%20Cruz!5e0!3m2!1ses!2sar!4v1753809438845!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="footer mt-auto py-4 bg-dark text-white">
+        <div class="container text-center text-md-left">
+            <img src="../../images/logowide.png" alt="Logo de COPESA" class="footer-logo mb-3">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <p>Av. Bartolomé Mitre Nº 3047,<br>Barrio Industrial, Caleta Olivia - Santa Cruz</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="tel:+541148163291">(+54) 9 2974-328654</a>
+                    <br>
+                    <a href="mailto:info@copesa.com">mail@copesa-ar.com</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <p>&copy; 2025 COPESA. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init();
+        });
+    </script>
+    <script src="js/sendemailjs.js"></script>
+</body>
+</html>
