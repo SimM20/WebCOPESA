@@ -106,6 +106,16 @@ body {
     min-height: 25vh;
 }
 
+.pdf-link{
+    text-decoration: none;
+    color: black;
+}
+
+.pdf-link:hover{
+    text-decoration: underline;
+    color: #006699;
+}
+
 /* linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), */
 
 .servicio1{

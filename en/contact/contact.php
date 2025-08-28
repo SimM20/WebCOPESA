@@ -12,9 +12,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cabeceras .= "Reply-To: $email\r\n";
 
     if (mail($para, $asunto, $contenido, $cabeceras)) {
-        echo "Mensaje enviado correctamente";
+        echo "Message sent successfully";
     } else {
-        echo "Error al enviar el mensaje intente de nuevo mas tarde";
+        echo "Error sending message try again later";
     }
 }
 ?>
